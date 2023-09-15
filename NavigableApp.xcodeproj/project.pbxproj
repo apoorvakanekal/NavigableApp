@@ -14,6 +14,9 @@
 		172B7BC52AB40BA500EB903B /* NavigableAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172B7BC42AB40BA500EB903B /* NavigableAppTests.swift */; };
 		172B7BCF2AB40BA500EB903B /* NavigableAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172B7BCE2AB40BA500EB903B /* NavigableAppUITests.swift */; };
 		172B7BD12AB40BA500EB903B /* NavigableAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172B7BD02AB40BA500EB903B /* NavigableAppUITestsLaunchTests.swift */; };
+		179F4DA92ABBF826009A8835 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F4DA82ABBF826009A8835 /* WeatherView.swift */; };
+		179F4DAB2ABBF89C009A8835 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F4DAA2ABBF89C009A8835 /* ActivityView.swift */; };
+		179F4DE42ABBFAB4009A8835 /* HelloPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F4DE32ABBFAB4009A8835 /* HelloPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		172B7BCA2AB40BA500EB903B /* NavigableAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigableAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		172B7BCE2AB40BA500EB903B /* NavigableAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigableAppUITests.swift; sourceTree = "<group>"; };
 		172B7BD02AB40BA500EB903B /* NavigableAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigableAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		179F4DA82ABBF826009A8835 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		179F4DAA2ABBF89C009A8835 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		179F4DE32ABBFAB4009A8835 /* HelloPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				172B7BB22AB40BA100EB903B /* NavigableAppApp.swift */,
 				172B7BB42AB40BA100EB903B /* ContentView.swift */,
+				179F4DE32ABBFAB4009A8835 /* HelloPageView.swift */,
+				179F4DA82ABBF826009A8835 /* WeatherView.swift */,
+				179F4DAA2ABBF89C009A8835 /* ActivityView.swift */,
 				172B7BB62AB40BA500EB903B /* Assets.xcassets */,
 				172B7BB82AB40BA500EB903B /* NavigableApp.entitlements */,
 				172B7BB92AB40BA500EB903B /* Preview Content */,
@@ -261,6 +270,9 @@
 			files = (
 				172B7BB52AB40BA100EB903B /* ContentView.swift in Sources */,
 				172B7BB32AB40BA100EB903B /* NavigableAppApp.swift in Sources */,
+				179F4DAB2ABBF89C009A8835 /* ActivityView.swift in Sources */,
+				179F4DA92ABBF826009A8835 /* WeatherView.swift in Sources */,
+				179F4DE42ABBFAB4009A8835 /* HelloPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
